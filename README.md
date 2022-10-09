@@ -3,5 +3,5 @@
 
 ## DEMO IMAGE
 <p align="center">
-<img src="https://raw.githubusercontent.com/Tynab/Ibaraki-Beta-Weight/main/pic/0.jpg"></img>
+<img src="https://raw.githubusercontent.com/Tynab/Touhoku-Beta-Weight/main/pic/0.jpg"></img>
 </p>
