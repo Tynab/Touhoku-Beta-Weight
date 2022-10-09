@@ -7,7 +7,7 @@ Friend Module Service
     ''' <param name="xlApp">Excel Application.</param>
     Friend Sub WtIbarakiBeta(xlApp As Application)
         ' Fare
-        Dim truck2Ton = HdrYNQ(vbTab & vbTab & "運賃(2トン車): ")
+        Dim truck2Ton = HdrYNQ(vbTab & vbTab & "運賃 (2トン車): ")
         Fare(xlApp, truck2Ton)
         ' Unit GL-300
         Dim gl300 = HdrYNQ(vbTab & vbTab & "外周深GL-300: ")

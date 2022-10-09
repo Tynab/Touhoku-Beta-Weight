@@ -396,11 +396,11 @@ Friend Module Util
     ''' <param name="choosen">Selection.</param>
     Friend Sub Corner3d(xlApp As Application, choosen As Double)
         If choosen = 1 Then
-            PubDModVal(xlApp, "202", "750×690×390", 3, DtlDInpDesc(vbTab & "右(750×690×390) ", "[3.0]" & vbTab))
-            PubDModVal(xlApp, "203", "750×690×390", 3, DtlDInpDesc(vbTab & "左(750×690×390) ", "[3.0]" & vbTab))
-            PubDVal(xlApp, "BA193", DtlDInp(vbTab & "右(750×460×390)" & vbTab & vbTab & ": "))
-            PubDVal(xlApp, "BA194", DtlDInp(vbTab & "左(750×460×390)" & vbTab & vbTab & ": "))
-            PubDModVal(xlApp, "209", "750×240×390", 2.3, DtlDInpDesc(vbTab & "右(750×240×390) ", "[2.3]" & vbTab))
+            PubDModVal(xlApp, "202", "750×690×390", 3, DtlDInpDesc(vbTab & "右 (750×690×390) ", "[3.0]" & vbTab))
+            PubDModVal(xlApp, "203", "750×690×390", 3, DtlDInpDesc(vbTab & "左 (750×690×390) ", "[3.0]" & vbTab))
+            PubDVal(xlApp, "BA193", DtlDInp(vbTab & "右 (750×460×390)" & vbTab & ": "))
+            PubDVal(xlApp, "BA194", DtlDInp(vbTab & "左 (750×460×390)" & vbTab & ": "))
+            PubDModVal(xlApp, "209", "750×240×390", 2.3, DtlDInpDesc(vbTab & "右 (750×240×390) ", "[2.3]" & vbTab))
         End If
     End Sub
 
@@ -411,8 +411,8 @@ Friend Module Util
     ''' <param name="choosen">Selection.</param>
     Friend Sub Crank3d(xlApp As Application, choosen As Double)
         If choosen = 1 Then
-            PubDModVal(xlApp, "196", "（クランク３右）", "750×920×460×390", 4.1, DtlDInpDesc(vbTab & "右(750×920×460×390) ", "[4.1]"))
-            PubDModVal(xlApp, "197", "（クランク３左）", "750×920×460×390", 4.1, DtlDInpDesc(vbTab & "左(750×920×460×390) ", "[4.1]"))
+            PubDModVal(xlApp, "196", "（クランク３右）", "750×920×460×390", 4.1, DtlDInpDesc(vbTab & "右 (750×920×460×390) ", "[4.1]"))
+            PubDModVal(xlApp, "197", "（クランク３左）", "750×920×460×390", 4.1, DtlDInpDesc(vbTab & "左 (750×920×460×390) ", "[4.1]"))
         End If
     End Sub
 
@@ -576,7 +576,7 @@ Friend Module Util
         PubSVal(xlApp, vbTab & "邸名コード" & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & ": ", "AD5")
         PubSVal(xlApp, vbTab & "納品日" & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & ": ", "BO2")
         PubSVal(xlApp, vbTab & "住所" & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & ": ", "BJ13")
-        Dim ipp = DtlYNQ(vbTab & "運賃(分納)" & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & ": ")
+        Dim ipp = DtlYNQ(vbTab & "運賃 (分納)" & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & vbTab & ": ")
         If ipp = 1 Then
             DctVal(xlApp, "BA272", ipp)
         End If
