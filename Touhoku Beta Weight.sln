@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Touhoku Beta Weight", "Touhoku Beta Weight\Touhoku Beta Weight.vbproj", "{D75D0838-682F-4290-AECF-4563F57B017C}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Touhoku Beta Weight Setup", "Touhoku Beta Weight Setup\Touhoku Beta Weight Setup.vdproj", "{7F6D8EE8-91ED-48F3-BE95-B35C2F086B92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{D75D0838-682F-4290-AECF-4563F57B017C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D75D0838-682F-4290-AECF-4563F57B017C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D75D0838-682F-4290-AECF-4563F57B017C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6D8EE8-91ED-48F3-BE95-B35C2F086B92}.Debug|Any CPU.ActiveCfg = Debug
+		{7F6D8EE8-91ED-48F3-BE95-B35C2F086B92}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
