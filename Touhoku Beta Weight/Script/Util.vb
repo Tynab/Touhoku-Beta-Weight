@@ -355,7 +355,7 @@ Friend Module Util
     Friend Sub Haunch(xlApp As Application, choosen As Double)
         If choosen = 1 Then
             PubDVal(xlApp, "BA208", DtlDInp(vbTab & "H200" & vbTab & vbTab & ": "))
-            PubDModVal(xlApp, "207", "660×曲（H300）×660", 2.9, DtlDInpDesc(vbTab & "H300 ", "[2.9/425]" & vbTab))
+            PubDModVal(xlApp, "207", "660×曲（H300）×660", 2.9, DtlDInpDesc(vbTab & "H300 ", "[2.9]" & vbTab))
         End If
     End Sub
 

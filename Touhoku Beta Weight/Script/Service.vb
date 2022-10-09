@@ -72,7 +72,7 @@ Friend Module Service
         ' M type
         MType(xlApp, HdrYNQ(vbTab & vbTab & "M型 (D16): "))
         ' Bending 135 degree
-        PubDModVal(xlApp, "213", "750×曲（H80）×460×750", 3.4, HdrDInpDesc(vbTab & vbTab & "曲 (135°[D16{750×H80×460×750}]) ", "[3.4/115]"))
+        PubDModVal(xlApp, "213", "750×曲（H80）×460×750", 3.4, HdrDInpDesc(vbTab & vbTab & "曲 (135°[D16{750×H80×460×750}]) ", "[3.4]"))
         ' Main reinforcement
         MainReinf(xlApp, HdrYNQ(vbTab & vbTab & "主筋補強 (D10): "))
         ' Slab bending
