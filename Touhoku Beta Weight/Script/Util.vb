@@ -2,7 +2,7 @@
 
 Friend Module Util
     ''' <summary>
-    ''' 運賃(2トン車).
+    ''' 運賃 (2トン車).
     ''' </summary>
     ''' <param name="xlApp">Excel Application.</param>
     ''' <param name="choosen">Selection.</param>
@@ -417,7 +417,7 @@ Friend Module Util
     End Sub
 
     ''' <summary>
-    ''' M型 (D16).
+    ''' Ｍ型 (D16).
     ''' </summary>
     ''' <param name="xlApp">Excel Application.</param>
     ''' <param name="choosen">Selection.</param>
@@ -502,7 +502,7 @@ Friend Module Util
     ''' </summary>
     ''' <param name="xlApp">Excel Application.</param>
     ''' <param name="truck2Ton">2 ton truck.</param>
-    Friend Sub SlabStrMain(xlApp As Application, truck2Ton As Double)
+    Private Sub SlabStrMain(xlApp As Application, truck2Ton As Double)
         If Not truck2Ton = 1 Then
             PubDVal(xlApp, "BA126", DtlDInp(vbTab & "5500: "))
             PubDVal(xlApp, "BA127", DtlDInp(vbTab & "5000: "))
