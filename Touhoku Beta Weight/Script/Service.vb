@@ -2,10 +2,10 @@
 
 Friend Module Service
     ''' <summary>
-    ''' Weight Ibaraki Beta.
+    ''' Weight Touhoku Beta.
     ''' </summary>
     ''' <param name="xlApp">Excel Application.</param>
-    Friend Sub WtIbarakiBeta(xlApp As Application)
+    Friend Sub WtTouhokuBeta(xlApp As Application)
         ' Fare
         Dim truck2Ton = HdrYNQ(vbTab & vbTab & "運賃 (2トン車): ")
         Fare(xlApp, truck2Ton)
