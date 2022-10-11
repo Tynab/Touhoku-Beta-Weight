@@ -45,13 +45,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D89E1C57775B45349C4B4BDF70BA18A7"
+        "MsmKey" = "8:_818FB0FF36AE4835BE7CE71E37011AFB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F019A61245504D86AFA2C8AF3BF46AF8"
+        "MsmKey" = "8:_D89E1C57775B45349C4B4BDF70BA18A7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -130,6 +130,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -271,7 +279,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F019A61245504D86AFA2C8AF3BF46AF8"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_818FB0FF36AE4835BE7CE71E37011AFB"
             {
             "SourcePath" = "8:..\\res\\ic.ico"
             "TargetName" = "8:ic.ico"
@@ -385,7 +393,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_F019A61245504D86AFA2C8AF3BF46AF8"
+        "ARPPRODUCTICON" = "8:_818FB0FF36AE4835BE7CE71E37011AFB"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -499,7 +507,7 @@
             "Target" = "8:_D89E1C57775B45349C4B4BDF70BA18A7"
             "Folder" = "8:_39CDBDE8F94749079BD6B81297F2ECF4"
             "WorkingFolder" = "8:_439B49E2C7A64719B700A3DD91CF7764"
-            "Icon" = "8:_F019A61245504D86AFA2C8AF3BF46AF8"
+            "Icon" = "8:_818FB0FF36AE4835BE7CE71E37011AFB"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FAD05EDA0D0C4ED28D8B7F9E924CFE4A"
@@ -513,7 +521,7 @@
             "Target" = "8:_D89E1C57775B45349C4B4BDF70BA18A7"
             "Folder" = "8:_888CF206A2964AB09A0E38BB89CA26F0"
             "WorkingFolder" = "8:_439B49E2C7A64719B700A3DD91CF7764"
-            "Icon" = "8:_F019A61245504D86AFA2C8AF3BF46AF8"
+            "Icon" = "8:_818FB0FF36AE4835BE7CE71E37011AFB"
             "Feature" = "8:"
             }
         }
@@ -927,7 +935,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D89E1C57775B45349C4B4BDF70BA18A7"
             {
-            "SourcePath" = "8:..\\Touhoku Beta Weight\\obj\\Release\\Touhoku Beta Weight.exe"
+            "SourcePath" = "8:..\\Touhoku Beta Weight\\obj\\Debug\\Touhoku Beta Weight.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_439B49E2C7A64719B700A3DD91CF7764"
