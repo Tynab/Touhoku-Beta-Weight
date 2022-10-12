@@ -68,11 +68,11 @@ Friend Module Service
         ' Crank 3D
         Crank3d(xlApp, HdrYNQ(vbTab & vbTab & "クランク3 (D16): "))
         ' U type 3D
-        PubDModVal(xlApp, "198", "（コノ字３右）", "750×920×460×390", 4.1, HdrDInpDesc(vbTab & vbTab & "コ型3右 (D16[750×920×460×390]) ", "[4.1]"))
+        PubDModVal(xlApp, "198", "（コノ字３右）", "750×920×460×390", 4.1, HdrDInp(vbTab & vbTab & "コ型3右 (D16[750×920×460×390]): "))
         ' M type
         MType(xlApp, HdrYNQ(vbTab & vbTab & "M型 (D16): "))
         ' Bending 135 degree
-        PubDModVal(xlApp, "213", "750×曲（H80）×460×750", 3.4, HdrDInpDesc(vbTab & vbTab & "曲 (135°[D16{750×H80×460×750}]) ", "[3.4]"))
+        PubDModVal(xlApp, "213", "750×曲（H80）×460×750", 3.4, HdrDInp(vbTab & vbTab & "曲 (135°[D16{750×H80×460×750}]): "))
         ' Main reinforcement
         MainReinf(xlApp, HdrYNQ(vbTab & vbTab & "主筋補強 (D10): "))
         ' Slab bending
