@@ -27,6 +27,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_42479D2E656C4A52B2947AE64ED37950"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_458975E10F2F47F1AA320EC42372FFA8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -40,12 +46,6 @@
         "Entry"
         {
         "MsmKey" = "8:_7DB598FE261A42AF9B3C4051C8331DB3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_818FB0FF36AE4835BE7CE71E37011AFB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -208,6 +208,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_42479D2E656C4A52B2947AE64ED37950"
+            {
+            "SourcePath" = "8:..\\res\\ic.ico"
+            "TargetName" = "8:ic.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_439B49E2C7A64719B700A3DD91CF7764"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_458975E10F2F47F1AA320EC42372FFA8"
             {
             "SourcePath" = "8:..\\res\\BSZoro.bmp"
@@ -263,26 +283,6 @@
             {
             "SourcePath" = "8:..\\res\\BSLuffy.bmp"
             "TargetName" = "8:BSLuffy.bmp"
-            "Tag" = "8:"
-            "Folder" = "8:_439B49E2C7A64719B700A3DD91CF7764"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_818FB0FF36AE4835BE7CE71E37011AFB"
-            {
-            "SourcePath" = "8:..\\res\\ic.ico"
-            "TargetName" = "8:ic.ico"
             "Tag" = "8:"
             "Folder" = "8:_439B49E2C7A64719B700A3DD91CF7764"
             "Condition" = "8:"
@@ -393,7 +393,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_818FB0FF36AE4835BE7CE71E37011AFB"
+        "ARPPRODUCTICON" = "8:_42479D2E656C4A52B2947AE64ED37950"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -507,7 +507,7 @@
             "Target" = "8:_D89E1C57775B45349C4B4BDF70BA18A7"
             "Folder" = "8:_39CDBDE8F94749079BD6B81297F2ECF4"
             "WorkingFolder" = "8:_439B49E2C7A64719B700A3DD91CF7764"
-            "Icon" = "8:_818FB0FF36AE4835BE7CE71E37011AFB"
+            "Icon" = "8:_42479D2E656C4A52B2947AE64ED37950"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FAD05EDA0D0C4ED28D8B7F9E924CFE4A"
@@ -521,7 +521,7 @@
             "Target" = "8:_D89E1C57775B45349C4B4BDF70BA18A7"
             "Folder" = "8:_888CF206A2964AB09A0E38BB89CA26F0"
             "WorkingFolder" = "8:_439B49E2C7A64719B700A3DD91CF7764"
-            "Icon" = "8:_818FB0FF36AE4835BE7CE71E37011AFB"
+            "Icon" = "8:_42479D2E656C4A52B2947AE64ED37950"
             "Feature" = "8:"
             }
         }
