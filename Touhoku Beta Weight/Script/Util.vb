@@ -291,7 +291,7 @@ Friend Module Util
         If choosen = 1 Then
             PubDVal(xlApp, "BA178", DtlDInp(vbTab & "670×780: "))
             PubDVal(xlApp, "BA177", DtlDInp(vbTab & "570×780: "))
-            PubDVal(xlApp, "BA170", DtlDInp(vbTab & "390×780: "))
+            PubDVal(xlApp, "BA170", DtlDInp(vbTab & "390×700: "))
         End If
     End Sub
 
@@ -543,7 +543,7 @@ Friend Module Util
     End Sub
 
     ''' <summary>
-    ''' スラブ補強曲 (D10).
+    ''' スラブ補強直 (D10).
     ''' </summary>
     ''' <param name="xlApp">Excel Application.</param>
     ''' <param name="choosen">Selection.</param>
