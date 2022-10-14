@@ -454,7 +454,7 @@ Friend Module Util
                 SlabBndgMain(xlApp, truck2Ton)
             End If
         Else
-            PrefWarn(vbTab & vbTab & "スラブ曲 (D13)")
+            HdrWrng(vbTab & vbTab & "スラブ曲 (D13)" & vbCrLf)
             SlabBndgMain(xlApp, truck2Ton)
         End If
     End Sub
@@ -492,7 +492,7 @@ Friend Module Util
                 SlabStrMain(xlApp, truck2Ton)
             End If
         Else
-            PrefWarn(vbTab & vbTab & "スラブ直 (D13)")
+            HdrWrng(vbTab & vbTab & "スラブ直 (D13)" & vbCrLf)
             SlabStrMain(xlApp, truck2Ton)
         End If
     End Sub

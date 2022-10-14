@@ -13,7 +13,7 @@ Friend Module Service
         Dim gl300 = HdrYNQ(vbTab & vbTab & "外周深GL-300: ")
         Unit300(xlApp, gl300)
         ' Unit GL-150
-        PrefWarn(vbTab & vbTab & "外周/内周GL-150")
+        HdrWrng(vbTab & vbTab & "外周/内周GL-150" & vbCrLf)
         Unit150(xlApp)
         ' Unit GL-300/+30
         Unit300Cut(xlApp, HdrYNQ(vbTab & vbTab & "外周深GL-300/+30: "))
@@ -37,10 +37,10 @@ Friend Module Service
         ' Sleeve
         Sleeve(xlApp, gl300, unitSlab)
         ' Straight joint
-        PrefWarn(vbTab & vbTab & "ストレート")
+        HdrWrng(vbTab & vbTab & "ストレート" & vbCrLf)
         JtStr(xlApp)
         ' Corner joint
-        PrefWarn(vbTab & vbTab & "コーナー")
+        HdrWrng(vbTab & vbTab & "コーナー" & vbCrLf)
         JtCor(xlApp)
         ' Long corner
         LongCor(xlApp, HdrYNQ(vbTab & vbTab & "ロングコーナー: "))
@@ -61,7 +61,7 @@ Friend Module Service
         ' Corner 135 degree
         Corner135deg(xlApp, HdrYNQ(vbTab & vbTab & "コーナー(曲 135°): "))
         ' Hook
-        PrefWarn(vbTab & vbTab & "フック (D10)")
+        HdrWrng(vbTab & vbTab & "フック (D10)" & vbCrLf)
         Hook(xlApp)
         ' Corner 3D
         Corner3d(xlApp, HdrYNQ(vbTab & vbTab & "コーナー3 (D16): "))
@@ -84,7 +84,7 @@ Friend Module Service
         ' Slab reinforcement straight
         SlabReinfStr(xlApp, HdrYNQ(vbTab & vbTab & "スラブ補強直 (D10): "), truck2Ton)
         ' Parts
-        PrefWarn(vbTab & vbTab & "副資材リスト")
+        HdrWrng(vbTab & vbTab & "副資材リスト" & vbCrLf)
         Parts(xlApp)
     End Sub
 End Module
