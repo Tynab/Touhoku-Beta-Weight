@@ -375,15 +375,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:東北 (ベタ) 重量"
-        "ProductCode" = "8:{FCB0A647-5212-448B-A693-694F89FB23C2}"
-        "PackageCode" = "8:{BAFC1502-DCFB-41ED-92F9-B458EAAB9172}"
+        "ProductCode" = "8:{357280FE-7C9C-42C0-A29A-48F1A4EA6948}"
+        "PackageCode" = "8:{B556BA9B-C16C-4F31-A85C-986E306EF219}"
         "UpgradeCode" = "8:{DB79D12C-366C-4B3C-B237-D40751D183B4}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:22.10.9"
+        "ProductVersion" = "8:22.10.17"
         "Manufacturer" = "8:YAN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -935,7 +935,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D89E1C57775B45349C4B4BDF70BA18A7"
             {
-            "SourcePath" = "8:..\\Touhoku Beta Weight\\obj\\Debug\\Touhoku Beta Weight.exe"
+            "SourcePath" = "8:..\\Touhoku Beta Weight\\obj\\Release\\Touhoku Beta Weight.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_439B49E2C7A64719B700A3DD91CF7764"
