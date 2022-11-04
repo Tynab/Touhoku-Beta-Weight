@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D75D0838-682F-4290-AECF-4563F57B017C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Touhoku_Beta_Weight.ModuleMain</StartupObject>
+    <StartupObject>Touhoku_Beta_Weight.Main</StartupObject>
     <RootNamespace>Touhoku_Beta_Weight</RootNamespace>
     <AssemblyName>Touhoku Beta Weight</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -99,7 +99,7 @@
     <Compile Include="Control\FrmUpdate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModuleMain.vb" />
+    <Compile Include="Script\Main.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
