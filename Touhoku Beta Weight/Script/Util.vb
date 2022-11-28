@@ -192,6 +192,7 @@ Friend Module Util
             PubDVal(xlApp, "BA103", DtlDInp(vbTab & "  2G: "))
             PubDVal(xlApp, "BA104", DtlDInp(vbTab & "1.5G: "))
             PubDVal(xlApp, "BA105", DtlDInp(vbTab & "  1G: "))
+            PubDVal(xlApp, "BA106", DtlDInp(vbTab & "0.5G: "))
         End If
     End Sub
 
