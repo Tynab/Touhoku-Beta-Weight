@@ -6,6 +6,27 @@ Solution to help 西山 team of エマール group transfer data faster for 東�
 <img src="https://raw.githubusercontent.com/Tynab/Touhoku-Beta-Weight/main/pic/0.png"></img>
 </p>
 
+## CODE DEMO
+```vb
+''' <summary>
+''' 運賃 (2トン車).
+''' </summary>
+''' <param name="xlApp">Excel Application.</param>
+''' <param name="choosen">Selection.</param>
+Friend Sub Fare(xlApp As Application, choosen As Double)
+    If choosen = 1 Then
+        DctVal(xlApp, "BA271", choosen)
+        DctVal(xlApp, "BA158", 3) ' D16
+        DctVal(xlApp, "BA159", 2) ' D13
+        DctVal(xlApp, "BA160", 4) ' D10
+    Else
+        DctVal(xlApp, "BA161", 2) ' D16
+        DctVal(xlApp, "BA162", 1) ' D13
+        DctVal(xlApp, "BA163", 3) ' D10
+    End If
+End Sub
+```
+
 ### PACKAGES
 <img src="https://raw.githubusercontent.com/Tynab/Ibaraki-Beta-Weight/main/pic/1.png" align="left" width="3%" height="3%"></img>
 <div style="display:flex;">
